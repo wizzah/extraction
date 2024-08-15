@@ -18,8 +18,6 @@ resultJson = {
 
 summarizer = pipeline("summarization", model="Falconsai/text_summarization")
 summaries = []
-
-# pii model for entities
 entities = []
 
 # identify entities and add to a list
